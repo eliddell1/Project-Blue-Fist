@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:padding="@dimen/medium_padding"
+    android:background="@drawable/rounded_corner_light_box">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/ic_launcher"
+        android:layout_gravity="center_horizontal|top"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/standard_padding"
+        android:textSize="@dimen/text_size_medium"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:text="hello"
+        />
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/standard_padding"
+        android:textAlignment="center"
+        android:text="some message would go here"
+        />
+
+    <Button
+        android:id="@+id/okbtn"
+        android:layout_width="@dimen/action_btn_width"
+        android:layout_height="@dimen/action_btn_height"
+        android:layout_marginTop="@dimen/medium_padding"
+        android:background="@drawable/btn_red_bg"
+        android:text="OK"
+        android:textColor="@color/colorPrimaryLight"
+        android:textStyle="bold"/>
+
+</LinearLayout>

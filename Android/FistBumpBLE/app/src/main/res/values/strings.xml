@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FistBump</string>
+    <string name="no_target_message">No target is selected. If you attack now, you will be attacking everyone in range.</string>
+    <string name="broad_attack">Broad Attack!</string>
+    <string name="targeted_attack">Targeted Attack!</string>
+    <string name="available_targets">Available Targets</string>
+    <string name="untargeted">UNTARGETED</string>
+    <string name="targeted">TARGETED</string>
+    <string name="total">TOTAL</string>
+    <string name="handshakes">Handshakes</string>
+    <string name="pmkid">PMKID</string>
+
+</resources>

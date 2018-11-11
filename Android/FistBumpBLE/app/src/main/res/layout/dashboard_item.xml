@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/item_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="HANDSHAKES"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="@dimen/text_size_standard"
+        android:padding="@dimen/standard_padding"
+        android:layout_marginLeft="@dimen/half_padding"
+        android:layout_marginRight="@dimen/half_padding"
+        android:textColor="@android:color/white"
+        android:background="@android:color/black"
+        />
+    <TextView
+        android:id="@+id/total_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="--"
+        android:textStyle="bold"
+        android:paddingTop="@dimen/standard_padding"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_size_xtra_large" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/targetd_num"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:text="--"
+            android:textAlignment="center"
+            android:textColor="@color/colorSecondaryDark"
+            android:textSize="@dimen/text_size_large"
+            tools:ignore="NestedWeights" />
+
+        <TextView
+            android:id="@+id/untargeted_num"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:text="--"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/text_size_large" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:layout_gravity="top"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/standard_padding">
+
+        <TextView
+            android:id="@+id/targetd"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:layout_weight="1"
+            android:text="@string/targeted"
+            android:textAlignment="center"
+            android:textSize="@dimen/text_size_small"
+            tools:ignore="NestedWeights" />
+
+        <TextView
+            android:id="@+id/untargeted"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:layout_weight="1"
+            android:text="@string/untargeted"
+            android:textSize="@dimen/text_size_small"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+</LinearLayout>

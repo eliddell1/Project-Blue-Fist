@@ -1,0 +1,11 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_pressed="true"
+        android:drawable="@drawable/rounded_corner_light_red" />
+
+    <item
+        android:state_enabled="false"
+        android:drawable="@drawable/rounded_corner_dark_red" />
+    <item
+        android:drawable="@drawable/rounded_corner_red" />
+</selector>

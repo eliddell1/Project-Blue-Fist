@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <!-- Base application theme. -->
+    <style name="FistBumpTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:actionBarSize">80dip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+
+    <style name="FistBumpAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+
+        <item name="android:radius">20dp</item>
+        <item name="android:divider">@color/colorAccent</item>
+        <item name="alertDialogCenterButtons">true</item>
+        <item name="android:layout">@layout/fb_dialog_view</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+</resources>

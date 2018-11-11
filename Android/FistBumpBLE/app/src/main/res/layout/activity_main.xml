@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryGrey"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/TopBar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimaryLight"
+        android:elevation="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/available_targets"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_size_medium"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/refreshbtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end|center_vertical"
+            android:paddingEnd="@dimen/standard_padding"
+            android:src="@drawable/ic_refresh_black_24dp"
+            android:tint="@color/colorPrimaryDark" />
+
+        <ImageView
+            android:id="@+id/closeBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="start|center_vertical"
+            android:paddingStart="@dimen/standard_padding"
+            android:src="@drawable/ic_close"
+            android:tint="@color/colorPrimaryDark" />
+    </FrameLayout>
+
+    <ListView
+        android:id="@+id/wifi_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="60dp"
+        android:divider="@color/colorPrimaryGrey"
+        android:dividerHeight="@dimen/half_padding"
+        android:elevation="0dp"
+        android:layoutAnimation="@anim/layout_animation_fall_down"
+        android:paddingLeft="@dimen/standard_padding"
+        android:paddingRight="@dimen/standard_padding"
+        android:visibility="visible"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintHeight_percent="0.43"
+        app:layout_constraintTop_toTopOf="@id/TopBar" />
+
+    <ProgressBar
+        android:id="@+id/wifi_spinner"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/TopBar"
+        app:layout_constraintVertical_bias="0.263"
+        android:indeterminateDrawable="@drawable/progress"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/no_wifiMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="No networks found.\nTry to refresh with upper right refresh button"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/TopBar"
+        app:layout_constraintVertical_bias="0.263"
+        android:visibility="gone"/>
+
+    <FrameLayout
+        android:id="@+id/attack_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:elevation="2dp"
+        android:gravity="start"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintHeight_percent="0.52"
+        tools:layout_editor_absoluteX="0dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/medium_padding"
+            android:background="@color/colorPrimaryLight"
+            android:gravity="top"
+            android:orientation="vertical"
+            android:padding="@dimen/medium_padding">
+
+
+            <Button
+                android:id="@+id/attackbtn"
+                android:layout_width="@dimen/action_btn_width"
+                android:layout_height="@dimen/action_btn_height"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_marginTop="@dimen/medium_padding"
+                android:background="@drawable/btn_red_bg"
+                android:text="@string/broad_attack"
+                android:textColor="@color/colorPrimaryLight"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/targetMessageView"
+                android:layout_width="@dimen/action_btn_width"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/no_target_message"
+                android:textAlignment="center"
+                android:textStyle="italic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:paddingTop="@dimen/standard_padding"
+                android:layout_gravity="bottom">
+
+                <include
+                    android:id="@+id/pmkid_dash"
+                    layout="@layout/dashboard_item"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <include
+                    android:id="@+id/handshake_dash"
+                    layout="@layout/dashboard_item"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:background="@mipmap/ic_launcher" />
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:id="@+id/retrySheet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryLight"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/ic_launcher" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="@dimen/medium_padding"
+            android:text="Failed to connect to FistBump Device.\nIf the problem persists, quit and try rebooting you FistBump device."
+            android:textAlignment="center"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/retryBTN"
+            android:layout_width="@dimen/action_btn_width"
+            android:layout_height="@dimen/action_btn_height"
+            android:background="@drawable/btn_green_bg"
+            android:text="Retry"
+            android:textColor="@color/colorPrimaryLight"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/quitBTN"
+            android:layout_width="@dimen/action_btn_width"
+            android:layout_height="@dimen/action_btn_height"
+            android:layout_marginTop="@dimen/medium_padding"
+            android:background="@drawable/btn_red_bg"
+            android:text="Quit"
+            android:textColor="@color/colorPrimaryLight"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
