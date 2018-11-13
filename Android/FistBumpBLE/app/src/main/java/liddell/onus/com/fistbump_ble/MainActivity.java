@@ -554,7 +554,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void showNoDriveErrorDialog() {
-
+        if(mHorizontalProgressDialog!=null &&
+                mHorizontalProgressDialog.isShowing()){
+            mHorizontalProgressDialog.dismiss();
+        }
         AlertDialog alertDialog = new AlertDialog.Builder(new ContextThemeWrapper(this, R.style.FistBumpAlertDialogStyle))
                 .setView(R.layout.fb_dialog_view)
                 .setCancelable(false)
