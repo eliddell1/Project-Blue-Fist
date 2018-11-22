@@ -43,7 +43,7 @@ public class BLEMessageHandler extends Handler {
             } else if (readMessage.contains(DriveErrorMessage)) {
                 activity.showNoDriveErrorDialog();
 
-            } else if (readMessage.equals(AttackCompleteMessage)) {
+            } else if (readMessage.contains(AttackCompleteMessage)) {
                 activity.handleAttackComplete();
 
             }
