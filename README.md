@@ -6,11 +6,8 @@ Project Blue-Fist aims to remedy these short comings by removing the array of le
 
 <img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/white_device.jpg" width="300" height="400">   <img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/white_phone_device.jpg" width="300" height="400">   
 
-<img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/Screenshot_20181109-181002.png" width="200" height="398">     <img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/Screenshot_20181109-181027.png" width="200" height="398">      
+<img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/Screenshot_20181109-181002.png" width="200" height="398">        <img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/Screenshot_20181109-181027.png" width="200" height="398">      
 
-<img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/device_fistbumpBLE.jpg" width="400" height="300">
-
-<img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/device%2Bapp-targeted_attack_mode.jpg" width="400" height="300">
 
 
 
