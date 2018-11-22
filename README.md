@@ -4,6 +4,7 @@ Project Blue Fist is the next iteration of my P.O.C. project, [FistBump](https:/
 
 Project Blue-Fist aims to remedy these short comings by removing the array of led lights as well as the trigger button, leaving only a single button to power on or off the device.  This greatly lowers its' physical footprint allowing for the device to gracefuly fit in your pocket.  This iteration also now makes use of bluetooth and an android app so that the device can be completely controlled from your android phone. It still saves the hashes to removable storage, but now allows for on the fly targeting and detailed results which include new naming conventions for targeted vs broad attack results, and catalog file generation on broad attacks that details what essids can be found in the hashfile of the same file name.
 
+<img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/white_device.jpg" width="300" height="400">   <img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/white_phone_device.jpg" width="300" height="400">   
 
 <img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/Screenshot_20181109-181002.png" width="200" height="398">     <img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/Screenshot_20181109-181027.png" width="200" height="398">      
 
