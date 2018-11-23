@@ -30,7 +30,7 @@ At this point you can conduct a "Broad Attack" which will target anything in ran
 
 When attacks are successful, the booty/loot is stored to your removable usb storage.  Booty is currently organized into two folders, PMKID and Handshakes. 
 
-<img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/booty_main_dir.png" width=50% height=50%>
+<img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/booty_main_dir.png" width=30% height=30%>
 
 Note that actual hash files have an extension of .2500 or .16800. These correspond to the hashing mode you would use in hashcat to bruteforce those hashes.  2500 being standard WPA handshakes and 16800 being PMKID hashes. i.e. <code>$ hashcat -m 2500 ... </code> or <code>$ hashcat -m 16800 ... </code>
 
