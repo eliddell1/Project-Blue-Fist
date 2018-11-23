@@ -87,7 +87,7 @@ _Do **NOT** use the wifi model as the chip doesn't support monitor/package injec
 * 1 [3.7V 1200mAh PKCELL LP503562](https://www.amazon.com/s?k=3.7V+1200mAh+PKCELL+LP503562&ref=nb_sb_noss) _size matters we want a low profile as we will have a tight fit but feel free to alter this as you see fit espcially if you deisgn your own enclosuer etc_
 
 ## Physical Assembly
-For instructions on the physical assmebly follow the README file, [here](https://github.com/eliddell1/FistBump/blob/master/schematics%26referenceImages/README.md).  
+For instructions on the physical assmebly follow the README file, [here](https://github.com/eliddell1/Project-Blue-Fist/tree/master/DeviceBuild).  
 
 I have also supplied freecad/stl files for the 3d printable encloser [here](https://github.com/eliddell1/Project-Blue-Fist/tree/master/Enclosure).
 
