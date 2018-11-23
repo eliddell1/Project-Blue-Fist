@@ -26,6 +26,24 @@ At this point you can conduct a "Broad Attack" which will target anything in ran
 
 <img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/Screenshot_20181109-181027.png" width="200" height="367">            <img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/Screenshot_20181109-181002.png" width="200" height="367">            <img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/Screenshot_attacking.png" width="200" height="367">
 
+## Collecting Booty
+
+When attacks are successful, the booty/loot is stored to your removable usb storage.  Booty is currently organized into two folders, PMKID and Handshakes. 
+<img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/booty_main_dir.png">
+
+Note that actual hash files have an extension of .2500 or .16800. These correspond to the hashing mode you would use in hashcat to bruteforce those hashes.  2500 being standard WPA handshakes and 16800 being PMKID hashes. i.e. <code>$ hashcat -m 2500 ... </code> or <code>$ hashcat -m 16800 ... </code>
+
+When you drill into the appropriate directory, you will find broad attack results named with a date/time stamp while targeted attacks will be named with the convention "targeted-[ESSID NAME]"  
+
+<img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/handshake_dir.png">
+
+Above is the Handshake Directory.  You will notice that each hash file has a corresponding .catalog file.  Because an individual hash file may contain more than one hash, and in the case of broad attacks, even more than one target, this catalog file is there to list the targets found in it's corresponding hash file.
+
+<img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/broad_booty.png">
+
+<img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/catalog.png">
+
+
 ## Donate 
 
 If you enjoyed this project, help me make more by buying me a coffee or something.
