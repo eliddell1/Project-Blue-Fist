@@ -1,7 +1,7 @@
 # Project-Blue-Fist (FistBump BLE Edition) 
 [<img src="https://img.shields.io/badge/Device%20Image%20Latest%20Release-v.3.0.0-green.svg">](https://github.com/eliddell1/Project-Blue-Fist/releases)
 
-[<img src="https://img.shields.io/badge/Android%20App%20Latest%20Release-PlayStore-green.svg">](https://play.google.com/store/apps/details?id=liddell.onus.com.fistbump_ble)
+[<img src="https://img.shields.io/badge/Android-PlayStore-green.svg">](https://play.google.com/store/apps/details?id=liddell.onus.com.fistbump_ble)
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MLBAU3J6JVDS8&source=url)
 
