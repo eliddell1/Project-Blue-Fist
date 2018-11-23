@@ -47,6 +47,49 @@ Above is the Handshake Directory.  You will notice that each hash file has a cor
 
 <img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/catalog.png" width=50% height=50%>
 
+## Disclaimer
+
+_This Device was developped as a proof of concept and for White Hat Purposes.  You should only use this device on your own or a consenting network and in a controlled enviroment, as sending the necessary deauth packets used in the contained scripts could be illegal in your given part of the world. I do not endorse or warrent breaking the law or invading the privacy of others. You alone are fully responsible for what you do with this info/device, and how you use it. I am not responsible for your actions. Please do not hack Wifi points that you are not allowed to!!!
+Don't be a jerk!_
+
+## What is here?
+This repository contains all the Schematics, Reference Photos, Boot images, scripts, Android app source code and even 3d printable encloser parts for creating a FistBump prototype device.
+
+## Parts List
+
+* 1 [pi zero v1.3](https://www.raspberrypi.org/products/raspberry-pi-zero/)
+_Do **NOT** use the wifi model as the chip doesn't support monitor/package injection and creates interferience on usb hub_
+
+* 1 [zero4u usb hub adapter](https://www.adafruit.com/product/3298?gclid=Cj0KCQjw6rXeBRD3ARIsAD9ni9CGzOos99HaKls0MxgqrZMt_sKTnR6LVGsSJiN6rdDrbmr9ndM0L3QaAk_SEALw_wcB)
+
+* 1 [Adafruit Perma Proto Bonnet mini](https://www.amazon.com/Adafruit-Perma-Proto-Bonnet-ADA3203/dp/B07115Z42P/ref=sr_1_4?s=electronics&ie=UTF8&qid=1542996935&sr=1-4&keywords=pi+zero+proto+hat)
+
+* 2 [10k resistors](https://www.amazon.com/Projects-25EP51410K0-10K-Resistors-Pack/dp/B01F06T56I/ref=sr_1_1_sspa?ie=UTF8&qid=1540222052&sr=8-1-spons&keywords=10k+resistor&psc=1)
+
+* 1 [100k resistor](https://www.amazon.com/Projects-25EP514100K-100k-Resistors-Pack/dp/B0185FCGEY/ref=sr_1_1_sspa?ie=UTF8&qid=1540222085&sr=8-1-spons&keywords=100k+resistor&psc=1)
+
+* 3 [1N4007 diodes]( https://www.amazon.com/100-Pieces-1N4007-Rectifier-Electronic/dp/B079KBFKK5/ref=sr_1_1_sspa?ie=UTF8&qid=1540222123&sr=8-1-spons&keywords=1n4007+diode&psc=1)
+
+* 1 [small momentary button for power button](https://www.amazon.com/GZFY-6x6x4-5mm-Momentary-Tactile-Button/dp/B01N6GU7TA/ref=sr_1_14?ie=UTF8&qid=1540222185&sr=8-14&keywords=small+momentary+button)
+
+* 1 [2.5 pi nylon screw set](https://www.adafruit.com/product/3299)
+
+* 1 [usb wifi adapter with a small profile and capable of monitor mode]( https://www.amazon.com/gp/product/B019XUDHFC/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1) 
+
+* 1 [usb bluetooth 4.0 adapter with a small profile](https://www.amazon.com/gp/product/B009ZIILLI/ref=oh_aui_detailpage_o08_s00?ie=UTF8&psc=1) 
+
+* 1 [lo profile sandisk flash storage for saving handshakes in a removable manner](https://www.amazon.com/SanDisk-Cruzer-Low-Profile-Drive-SDCZ33-008G-B35/dp/B005FYNSUA/ref=sr_1_7?s=electronics&ie=UTF8&qid=1540222662&sr=1-7&keywords=sandisk+flash+drive+8gb)
+
+* 1 [16-32gb class 10 mirco sd card for pi boot image](https://www.amazon.com/s/ref=nb_sb_ss_i_5_10?url=search-alias%3Delectronics&field-keywords=16gb+micro+sd+card+class+10&sprefix=16gb+micro%2Celectronics%2C132&crid=5DO4BAWIZ2SP)
+
+* 1 [Pwerboost 1000c](https://www.adafruit.com/product/2465)
+
+* 1 [3.7V 1200mAh PKCELL LP503562](https://www.amazon.com/s?k=3.7V+1200mAh+PKCELL+LP503562&ref=nb_sb_noss) _size matters we want a low profile as we will have a tight fit but feel free to alter this as you see fit espcially if you deisgn your own enclosuer etc_
+
+## Physical Assembly
+For instructions on the physical assmebly follow the README file, [here](https://github.com/eliddell1/FistBump/blob/master/schematics%26referenceImages/README.md).  
+
+I have also supplied freecad/stl files for the 3d printable encloser [here](https://github.com/eliddell1/Project-Blue-Fist/tree/master/Enclosure).
 
 ## Donate 
 
