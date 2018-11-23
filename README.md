@@ -32,7 +32,7 @@ When attacks are successful, the booty/loot is stored to your removable usb stor
 
 <img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/booty_main_dir.png" width=30% height=30%>
 
-Note that actual hash files have an extension of .2500 or .16800. These correspond to the hashing mode you would use in hashcat to bruteforce those hashes.  2500 being standard WPA handshakes and 16800 being PMKID hashes. i.e. <code>$ hashcat -m 2500 ... </code> or <code>$ hashcat -m 16800 ... </code>
+Note that actual hash files have an extension of .2500 or .16800. These correspond to the hashing mode you would use in hashcat to bruteforce those hashes.  2500 being standard WPA handshakes and 16800 being PMKID hashes. i.e. <code>$ hashcat -m 2500 ... </code>  or <code>$ hashcat -m 16800 ... </code>
 
 When you drill into the appropriate directory, you will find broad attack results named with a date/time stamp while targeted attacks will be named with the convention "targeted-[ESSID NAME]"  
 
@@ -55,6 +55,8 @@ If you enjoyed this project, help me make more by buying me a coffee or somethin
 ### Bitcoin
 1KuntExCV54WJaVxyBMDbAXMye6zWcZfR
 
+## Purchase Inquiries
 
+If you are one of those who would rather have one built for them, send inquiries to liddell.erik@gmail.com subject:FistBumpBLE
 
 
