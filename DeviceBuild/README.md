@@ -23,7 +23,7 @@ For the power cycle circut reference the bread board image below. Note that the 
 
 <img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/lipopi_schematic_powerboost.png">
 
-<img src="https://raw.githubusercontent.com/eliddell1/Project-Blue-Fist/blob/master/Images/powerbutton_powerboost_1000C.png" width=50% height=50%>
+<img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/powerbutton_powerboost_1000C.png" width=50% height=50%>
 
 <img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/powerboost_1.jpg" width=50% height=50%>
 
