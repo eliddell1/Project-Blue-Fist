@@ -1,45 +1,43 @@
 # Physical Build Instructions
 
-The most difficult part of the phsyical assembly is the power on/off circut which is applied to the prototype board seen below.  In my setup the small black button is used for powering the device while the larger button is our trigger.
+The most difficult part of the phsyical assembly is the power on/off circut which is applied to the prototype board seen below.  In my setup the small black button is used for powering the device.
 
-To fit in the 3d printable encloser included in this repo it is important to place these buttons in the exact positions seen on the images below.
+To fit in the 3d printable encloser included in this repo it is important to place the buttons in the exact positions seen on the images below.
 
 __Top of proto board__
 
-<img src="https://github.com/eliddell1/FistBump/blob/master/schematics%26referenceImages/proto_board_top.jpg" width="299" height="399">    
+<img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/proto_top.jpg" width=50% height=50%>    
 
 __Bottom of proto board__
 
-<img src="https://github.com/eliddell1/FistBump/blob/master/schematics%26referenceImages/proto_board_bottom.jpg"  width="399" height="299">
+<img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/proto_underside.jpg"  width=50% height=50%>
 
-Obviously it is hard to tell much from those images so I will say this, it would probably behoove you to first solder the header pins, best seen in the top image, to the proto board.  We won't actually use all of them but they will be used for the blinkt chip and the extra pins will give support.  The trigger button ( larger yellow button) is simple, it needs to be wired to the ground (small black wire on right of the bottom image) and GPIO 3 (small yellow wire).
+__proto board connected to pi zero__
+
+_note that the yellow, red, and white wires are soldered to the corresponding gpio pins of the pi, seen in second image. they end up ordered: yellow, white, red on the pi_
+
+<img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/proto_underside_pi.jpg"  width=50% height=50%>
+<img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/pi_3_wire_gpio.jpg" width=50% height=50%>
 
 For the power cycle circut reference the bread board image below. Note that the wires coming off our proto board will attach to the powerboot and are color coded (light blue is battery, light green is env, black is ground and white will be low battery)
 
-<img src="https://raw.githubusercontent.com/eliddell1/FistBump/master/schematics%26referenceImages/lipopi_schematic_powerboost.png">
+<img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/lipopi_schematic_powerboost.png">
 
-<img src="https://raw.githubusercontent.com/eliddell1/FistBump/master/schematics%26referenceImages/powerbutton_powerboost_1000C.png" width="400" height="500">
+<img src="https://raw.githubusercontent.com/eliddell1/Project-Blue-Fist/blob/master/Images/powerbutton_powerboost_1000C.png" width=50% height=50%>
 
-<img src="https://raw.githubusercontent.com/eliddell1/FistBump/master/schematics%26referenceImages/powerbutton_powerboost_500C.png" width="400" height="500">
+<img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/powerboost_1.jpg" width=50% height=50%>
 
-<img src="https://raw.githubusercontent.com/eliddell1/FistBump/master/schematics%26referenceImages/powerboost500_wired.jpg" width="400" height="500">
-
-Note that in that last image im using the 500 power boost.. the order is different on the 1000
+<img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/powerboost_proto.jpg" width=50% height=50%>
 
 Once that proto board is all wired and soldered the rest is quite simple. And can be explained with the pics below.
 
-We attach the pi zero to the zero4u usb hat like so:
+We attach the pi zero to the zero4u usb hat like and then run the power from the powerboost to the jlc connector on the zero4u like so:
 
-<img src="https://raw.githubusercontent.com/eliddell1/FistBump/master/schematics%26referenceImages/pi%2Busb_top.jpg" width="400" height="300">
-<img src="https://raw.githubusercontent.com/eliddell1/FistBump/master/schematics%26referenceImages/pi%2Busb_bottom.jpg" width="400" height="300"> 
+<img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/zer4u_powerboost_connection.jpg" width=50% height=50%>
 
-In that bottom image you can see a piece of clear plastic that I basically salvaged from a PiBow zero case, probably not needed.
+<img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/assembled_1.jpg" width=50% height=50%>
 
-The proto board just plugs into the pi's headers and the blinkt! will plug into the proto boards headers.  make sure you attach the blinkt! with the rounded corners facing the closest edge of the pi.
-
-<img src="https://raw.githubusercontent.com/eliddell1/FistBump/master/schematics%26referenceImages/main_assembly.jpg" width="400" height="300"> 
-
-<img src="https://raw.githubusercontent.com/eliddell1/FistBump/master/schematics%26referenceImages/blinkt.jpg" width="400" height="300"> 
+<img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/assembled_2.jpg" width=50% height=50%>
 
 The lipo batter will plug directly to the power boost and the power out goes tothe zero4u hub which will supply power to the board.. 
 
