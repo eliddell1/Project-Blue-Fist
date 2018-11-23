@@ -1,8 +1,6 @@
-# file: rfcomm-server.py
-# auth: Albert Huang <albert@csail.mit.edu>
-# desc: simple demonstration of a server application that uses RFCOMM sockets
-#
-# $Id: rfcomm-server.py 518 2007-08-10 07:20:07Z albert $
+# author Eliddell1
+# script for ble communication between fistbump device and android app
+# Nov-2018 copywrite
 
 from bluetooth import *
 import os
