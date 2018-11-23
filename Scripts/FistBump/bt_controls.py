@@ -88,6 +88,3 @@ def listen():
 
 
 listen()
-#client_sock.close()
-#server_sock.close()
-#print "all done"
