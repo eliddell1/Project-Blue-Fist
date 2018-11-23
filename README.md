@@ -26,6 +26,15 @@ At this point you can conduct a "Broad Attack" which will target anything in ran
 
 <img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/Screenshot_20181109-181027.png" width="300" height="550">            <img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/Screenshot_20181109-181002.png" width="300" height="550">
 
+## Donate 
+
+If you enjoyed this project, help me make more by buying me a coffee or something.
+
+### PayPal
+[<img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif">](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MLBAU3J6JVDS8&source=url)
+
+### Bitcoin
+1KuntExCV54WJaVxyBMDbAXMye6zWcZfR
 
 
 
