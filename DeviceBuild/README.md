@@ -49,4 +49,4 @@ Thats really it.  mostly plug n play!  just download the latest device release i
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MLBAU3J6JVDS8&source=url)
 
-
+3d Printable Enclosure found [here](https://github.com/eliddell1/Project-Blue-Fist/tree/master/Enclosure)
