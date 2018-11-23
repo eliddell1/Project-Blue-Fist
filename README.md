@@ -14,7 +14,7 @@ To power on the device, hold down the power button.  A red and blue light will t
 
 Once the device is on, open the FistBump app on your bluetooth enabled android device. The app will attempt to conect to the FistBump Device
 
-<img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/connecting_screenshot.png" width="200" height="367">
+<img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/connecting_screenshot.png" width="200" height="367">     <img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/Screenshot_retry.png" width="200" height="367">
 
 If it fails, simply press retry.  Sometimes it maybe required to quit the app and try again, should it be unable to connect after the second or thrid attempt.
 
@@ -24,7 +24,7 @@ Once you have connected to the FistBump Device, the app will display a list of w
 
 At this point you can conduct a "Broad Attack" which will target anything in range, by pressing the red attack button or a Targeted Attack simply by selecting one of the displayed networks before tapping the attack button.
 
-<img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/Screenshot_20181109-181027.png" width="200" height="367">            <img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/Screenshot_20181109-181002.png" width="200" height="367">
+<img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/Screenshot_20181109-181027.png" width="200" height="367">            <img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/Screenshot_20181109-181002.png" width="200" height="367">            <img src="https://github.com/eliddell1/Project-Blue-Fist/blob/master/Images/Screenshot_attacking.png" width="200" height="367">
 
 ## Donate 
 
