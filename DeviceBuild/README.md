@@ -41,5 +41,12 @@ We attach the pi zero to the zero4u usb hat like and then run the power from the
 
 The lipo batter will plug directly to the power boost and the power out goes tothe zero4u hub which will supply power to the board.. 
 
-Thats really it.  mostly plug n play!  just download the latest release image and write it to a micro sd card and pop it in.  You can thenjust plug in your wifi adapter and usb flash drive and power her up by holding the power button for about 1 second. :)
+Thats really it.  mostly plug n play!  just download the latest device release image and write it to a micro sd card and pop it in.  Also make sure to get the Android App for controlling the device.  Both links provided below. You can then just plug in your wifi adapter and usb flash drive and power her up by holding the power button for about 1 second and the connect your bluetooth enabled android app to the device.
+
+[<img src="https://img.shields.io/badge/Device%20Image%20Latest%20Release-v.3.0.0-green.svg">](https://github.com/eliddell1/Project-Blue-Fist/releases)
+
+[<img src="https://img.shields.io/badge/Android-PlayStore-green.svg">](https://play.google.com/store/apps/details?id=liddell.onus.com.fistbump_ble)
+
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MLBAU3J6JVDS8&source=url)
+
 
