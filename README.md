@@ -1,4 +1,4 @@
-# Project-Blue-Fist
+# Project-Blue-Fist (FistBump BLE Edition) 
 [<img src="https://img.shields.io/badge/Device%20Image%20Latest%20Release-v.3.0.0-green.svg">](https://github.com/eliddell1/Project-Blue-Fist/releases)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MLBAU3J6JVDS8&source=url)
 
@@ -18,7 +18,7 @@ Once the device is on, open the FistBump app on your bluetooth enabled android d
 
 If it fails, simply press retry.  Sometimes it maybe required to quit the app and try again, should it be unable to connect after the second or thrid attempt.
 
-## Conducting an Attack
+## Launching an Attack
 
 Once you have connected to the FistBump Device, the app will display a list of wifi networks around you, available to attack.
 
