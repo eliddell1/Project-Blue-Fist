@@ -1,5 +1,8 @@
 # Project-Blue-Fist (FistBump BLE Edition) 
 [<img src="https://img.shields.io/badge/Device%20Image%20Latest%20Release-v.3.0.0-green.svg">](https://github.com/eliddell1/Project-Blue-Fist/releases)
+
+[<img src="https://img.shields.io/badge/Android%20App%20Latest%20Release-PlayStore-green.svg">](https://play.google.com/store/apps/details?id=liddell.onus.com.fistbump_ble)
+
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MLBAU3J6JVDS8&source=url)
 
 Project Blue Fist is the next iteration of my P.O.C. project, [FistBump](https://github.com/eliddell1/FistBump), a handheld pentesting tool that can be used to grab WPA handshakes and PMKID hashes on Red Team engagements. It was designed to allow one to get close to a given target allowing the attack to be more effective, without raising suspision.  The original proof of concept was a stand alone device that launched a very effective attack via the push of a button, but was not exactly stealthy with its' use of blinking lights to indicate various stages of the attack as well as the outcome. It was also a bit bulky and difficult to conceal. 
