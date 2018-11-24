@@ -105,7 +105,7 @@ If you enjoyed this project, help me make more by buying me a coffee or somethin
 
 If you are one of those who would rather have one built for them, send inquiries to liddell.erik@gmail.com subject:FistBumpBLE
 
-### Dependencies 
+## Dependencies 
 * [hcxdumptool v4.2.0 or higher](https://github.com/ZerBea/hcxdumptool)
 
 * [hcxtools v4.2.0 or higher](https://github.com/ZerBea/hcxtools)
